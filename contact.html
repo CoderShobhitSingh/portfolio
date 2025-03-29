@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style4.css">
+    <title>Contact Page</title>
+    
+</head>
+<body>
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                        viewBox="0 96 960 960" width="26" fill="#FFFFFF">
+                        <path
+                            d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                    </svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="pandc.html">Projects & Cources</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Shobhit's Portfolio</a></li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="about.html">About</a></li>
+            <li class="hideOnMobile"><a href="skill.html">Skills</a></li>
+            <li class="hideOnMobile"><a href="pandc.html">Projects & Cources</a></li>
+            <li class="hideOnMobile"><a href="#contact">Contact Me</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="22" viewBox="0 96 960 960" width="22" fill="#FFFFFF">
+                        <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+
+    <div class="contact-container">
+        <div class="contact-form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="6b783f47-32c2-4ca4-ba97-24d5570f81bb">
+                <input type="text" id="name" name="Full_Name" placeholder="Name" required>
+                <input type="email" id="email" name="Email ID" placeholder="Email ID" required>
+                <input type="text" id="phone" name="Phone Number" placeholder="Phone number" required>
+                <textarea id="message" name="Message" placeholder="Enter the message" maxlength="200" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="social-links">
+            <a href="https://github.com/CoderShobhitSingh/" target="_blank">
+                <img src="property/github (1).png" alt="GitHub">
+            </a>
+            <a href="mailto:snghshobhit@gmail.com" target="_blank">
+                <img src="property/gmail.png" alt="Gmail">
+            </a>
+            <a href="https://www.linkedin.com/in/shobhit-singh-51940a267/" target="_blank">
+                <img src="property/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/snghshobhit?igsh=MTgydWl5bnVpbnduZQ==" target="_blank">
+                <img src="property/Instagram_logo_2016.svg.png" alt="Instagram">
+            </a>
+            <a href="https://wa.me/916205360150" target="_blank">
+                <img src="property/whatsapp.png" alt="WhatsApp">
+            </a>
+        </div>
+
+    </div>
+</body>
+</html>
