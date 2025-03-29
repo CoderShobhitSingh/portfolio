@@ -1,18 +1,14 @@
-/* General Styling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 body {
     background-color: rgb(0, 0, 33);
     color: white;
     text-align: center;
 }
-
-/* Title */
 .title {
     font-size: 2.5rem;
     font-weight: bold;
@@ -23,15 +19,12 @@ body {
     margin-top: 40px;
     text-shadow: 0 0 10px rgba(56, 189, 248, 0.8);
 }
-
 .projects-container {
     display: flex;
     justify-content: center;
     gap: 5rem;
     flex-wrap: wrap;
 }
-
-/* Project Card */
 .project-card {
     display: flex;
     flex-direction: column;
@@ -44,7 +37,7 @@ body {
     backdrop-filter: blur(10px);
     border: 2px solid transparent;
     text-align: center;
-    width: 300px; /* Set a fixed width for each card */
+    width: 300px; 
 }
 
 .project-card:hover {
@@ -52,7 +45,6 @@ body {
     box-shadow: 0 8px 20px rgba(56, 189, 248, 0.3);
 }
 
-/* Image */
 .project-left img {
     width: 180px;
     height: auto;
@@ -65,7 +57,6 @@ body {
     transform: rotateY(360deg) scale(1.1);
 }
 
-/* Project Details */
 .project-right h3 {
     font-size: 1.5rem;
     color: #e0e0e0;
@@ -94,10 +85,9 @@ body {
     color: #0d1b2a;
 }
 
-/* Responsive */
 @media (max-width: 992px) {
     .projects-container {
-        flex-wrap: wrap; /* Allows wrapping on smaller screens */
+        flex-wrap: wrap; 
         justify-content: center;
     }
 }

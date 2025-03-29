@@ -116,6 +116,7 @@ body {
     .skill-item p {
         font-size: 1.1rem;
     }
+
     .skill-item:hover img {
         transform: rotateY(360deg) scale(1.1);
     }
