@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                        viewBox="0 96 960 960" width="26" fill="#FFFFFF">
+                        <path
+                            d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                    </svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="pandc.html">Projects & Cources</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Shobhit's Portfolio</a></li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="about.html">About</a></li>
+            <li class="hideOnMobile"><a href="skill.html">Skills</a></li>
+            <li class="hideOnMobile"><a href="pandc.html">Projects & Cources</a></li>
+            <li class="hideOnMobile"><a href="#">Contact Me</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="22" viewBox="0 96 960 960" width="22" fill="#FFFFFF">
+                        <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1 class="heading">About Me</h1>
+        <div class="content">
+            <div class="text-section">
+                <p>
+                    I'm a <span class="highlight">Full Stack Developer</span> with a strong focus on front-end
+                    development. Passionate about creating <span class="highlight">scalable, responsive</span>, and
+                    <span class="highlight">user-friendly applications</span>. I thrive in fast-paced environments and
+                    enjoy problem-solving.
+                </p>
+                <h2 class="sub-heading">Education</h2>
+                <p>B.Tech in Computer Science</p>
+                <p>GLA University, Mathura | CGPA: 7.2 | Expected: June 2025</p>
+
+                <h2 class="sub-heading">Technical Skills</h2>
+                <ul class="skills-list">
+                    <li class="skill-item"><strong>Languages:</strong> C (Basic), Java (Intermediate), JavaScript (React), HTML, CSS (Tailwind)</li>
+                    <li class="skill-item"><strong>Web Development:</strong> React.js, Tailwind CSS, JavaScript, REST APIs, Node.js, Express.js, MongoDB</li>
+                    <li class="skill-item"><strong>Tools & Technologies:</strong> Git, GitHub, Open Weather Map API, Typed.js, Web3Form API, Postman</li>
+                </ul>
+                
+
+                <h2 class="sub-heading">Soft Skills</h2>
+                <p>Effective Communication, Teamwork, Problem-Solving, Adaptability</p>
+
+                <h2 class="sub-heading">Certifications</h2>
+                <p>Meta Front-End Developer Professional Certificate</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

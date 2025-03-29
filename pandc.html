@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                        viewBox="0 96 960 960" width="26" fill="#FFFFFF">
+                        <path
+                            d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                    </svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="pandc.html">Projects & Cources</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Shobhit's Portfolio</a></li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="about.html">About</a></li>
+            <li class="hideOnMobile"><a href="skill.html">Skills</a></li>
+            <li class="hideOnMobile"><a href="pandc.html">Projects & Cources</a></li>
+            <li class="hideOnMobile"><a href="#">Contact Me</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="22" viewBox="0 96 960 960" width="22" fill="#FFFFFF">
+                        <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+
+    <h2 class="title">My Projects</h2>
+    <div class="projects-container">
+        
+    
+        <div class="project-card">
+            <div class="project-left">
+                <img src="property/calculator.png" alt="Basic Calculator">
+            </div>
+            <div class="project-right">
+                <h3>Basic Calculator</h3>
+                <p>Built with HTML, CSS, and JavaScript</p>
+                <a href="#">View Code</a>
+            </div>
+        </div>
+    
+        <div class="project-card">
+            <div class="project-left">
+                <img src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png
+                " alt="To-Do List">
+            </div>
+            <div class="project-right">
+                <h3>To-Do List Maker</h3>
+                <p>Built with HTML, CSS, and JavaScript</p>
+                <a href="#">View Code</a>
+            </div>
+        </div>
+    
+        <div class="project-card">
+            <div class="project-left">
+                <img src="https://cdn-icons-png.flaticon.com/512/1163/1163661.png" alt="Weather App">
+            </div>
+            <div class="project-right">
+                <h3>Weather App</h3>
+                <p>Built with HTML, CSS, JavaScript, and Weather API</p>
+                <a href="#">View Code</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-left">
+                <img src="property/digital-clock.png" alt="Digital Clock">
+            </div>
+            <div class="project-right">
+                <h3>Digital Clock</h3>
+                <p>Built with HTML, CSS, JavaScript</p>
+                <a href="#">View Code</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-left">
+                <img src="property/quiz.png" alt="Quiz Game">
+            </div>
+            <div class="project-right">
+                <h3>Quiz Game</h3>
+                <p>Built with React, Node.js, css</p>
+                <a href="#">View Code</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-left">
+                <img src="property/distributed.png" alt="Distributed System">
+            </div>
+            <div class="project-right">
+                <h3>Data Management System</h3>
+                <p>Built with HTML, CSS, JavaScript, MongoDB</p>
+                <a href="#">View Code</a>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

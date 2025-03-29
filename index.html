@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                        viewBox="0 96 960 960" width="26" fill="#FFFFFF">
+                        <path
+                            d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                    </svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="pandc.html">Projects & Cources</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Shobhit's Portfolio</a></li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="about.html">About</a></li>
+            <li class="hideOnMobile"><a href="skill.html">Skills</a></li>
+            <li class="hideOnMobile"><a href="pandc.html">Projects & Cources</a></li>
+            <li class="hideOnMobile"><a href="#contact">Contact Me</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="22" viewBox="0 96 960 960" width="22" fill="#FFFFFF">
+                        <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftside">
+                Hii, My name is <span class="pprl">Shobhit</span>
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button onclick="window.open('https://www.linkedin.com/in/shobhit-singh-51940a267', '_blank');"
+                        class="btn">LinkedIn</button>
+                    <a href="property/Shobhit_Singh_25.pdf" download="Shobhit_Resume.pdf"><button class="btn">Download
+                            Resume</button></a>
+                </div>
+            </div>
+
+            <div class="rightside">
+
+                <img src="property\dev.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection" id="contact">
+            <div class="leftsection">
+                <div class="upperbold">
+                    Let's discuss
+                    <div>
+                        on something <span class="pprl1">cool</span> together
+                    </div>
+                </div>
+                <div class="leftbottom">
+                    I'm interested in desigining...
+                </div>
+                <div class="leftbutton">
+                    <button>E-commerse Website</button>
+                    <button>Landing page</button>
+                    <button>Portfolio</button>
+                    <button>Blog Website</button>
+                    <button>Educational Websites</button>
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="6b783f47-32c2-4ca4-ba97-24d5570f81bb">
+                    <input type="text" id="name" name="Full_Name" placeholder="Name">
+                    <input type="email" id="email" name="Email ID" placeholder="Email ID">
+                    <input type="text" id="phone" Name="Phone Number" placeholder="Phone number">
+                    <textarea id="message" name="Message" placeholder="Enter the message" maxlength="200"></textarea>
+                    <button id="sub_btn" type="submit">Submit</button>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="foter">
+        <!-- &#169;2024 Shobhit Singh. All rights reserved. -->
+        <div class="fotleft">
+            Copyright &#169; 2024 Shobhit'sPortfolio
+        </div>
+        <div class="fotright">
+            <div class="git-pic">
+                <a href="https://github.com/CoderShobhitSingh/" target="_blank">
+                    <img src="property/github (1).png" alt="GitHub">
+                </a>
+            </div>
+            <div class="mail-pic">
+                <a href="mailto:snghshobhit@gmail.com" target="_blank">
+                    <img src="property/gmail.png" alt="Gmail">
+                </a>
+            </div>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/shobhit-singh-51940a267/" target="_blank">
+                    <img src="property/linkedin.png" alt="LinkedIn">
+                </a>
+            </div>
+            <div class="insta">
+                <a href="https://www.instagram.com/snghshobhit?igsh=MTgydWl5bnVpbnduZQ==" target="_blank">
+                    <img src="property/Instagram_logo_2016.svg.png" alt="Instagram">
+                </a>
+            </div>
+            <div class="whatsapp">
+                <a href="https://wa.me/916205360150" target="_blank">
+                    <img src="property\whatsapp.png" alt="WhatsApp">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

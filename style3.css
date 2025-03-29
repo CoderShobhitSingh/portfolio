@@ -1,0 +1,119 @@
+body {
+    background: linear-gradient(135deg, rgb(0, 0, 33), rgb(10, 10, 60));
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.skills-container {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #38bdf8;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    position: relative;
+    text-shadow: 0 0 10px rgba(56, 189, 248, 0.8);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.skill-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.15);
+    text-align: center;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    backdrop-filter: blur(10px);
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+/* Gradient Border */
+.skill-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 2px;
+    background: linear-gradient(135deg, #38bdf8, #7c3aed);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+.skill-item:hover::before {
+    opacity: 1;
+}
+
+.skill-item:hover {
+    transform: scale(1.1) rotate(3deg);
+    box-shadow: 0 8px 20px rgba(56, 189, 248, 0.3);
+}
+
+.skill-item img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 12px;
+    transition: transform 0.4s ease-in-out;
+    filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.6));
+}
+
+.skill-item:hover img {
+    transform: rotateY(360deg) scale(1.1);
+}
+
+.skill-item p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #e0e0e0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skills-container {
+        padding: 20px;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .skill-item {
+        padding: 15px;
+    }
+
+    .skill-item img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .skill-item p {
+        font-size: 1.1rem;
+    }
+}
