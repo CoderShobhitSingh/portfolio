@@ -56,7 +56,6 @@ body {
     padding: 30px;
 }
 
-/* Form Inputs */
 .contact-form input,
 .contact-form textarea {
     padding: 12px;
@@ -72,7 +71,6 @@ body {
     width: 30vw;
 }
 
-/* Proper Spacing for Inputs */
 .contact-form input:first-child {
     margin-top: 0;
 }
@@ -82,14 +80,12 @@ body {
     resize: vertical;
 }
 
-/* Focus Effect */
 .contact-form input:focus,
 .contact-form textarea:focus {
     border-color: #ff416c;
     background: rgba(255, 255, 255, 0.2);
 }
 
-/* Submit Button */
 .contact-form button {
     width: 100%;
     padding: 12px;
@@ -108,4 +104,43 @@ body {
     transform: scale(1.05);
     background: linear-gradient(90deg, #ff4b2b, #ff416c);
     box-shadow: 0 0 15px rgba(255, 75, 43, 0.7);
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .social-links, 
+    .contact-form {
+        padding: 20px;
+        width: 90%; 
+        max-width: none;
+    }
+
+    .social-links {
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .social-links a img {
+        width: 40px; 
+        height: 40px;
+    }
+
+    .contact-form {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 80vw; 
+    }
+
+    .contact-form button {
+        font-size: 16px;
+        padding: 10px;
+    }
 }
