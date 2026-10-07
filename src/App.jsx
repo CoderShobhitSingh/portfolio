@@ -1,5 +1,6 @@
 import { ArrowDown, ArrowRight, ArrowUpRight, Code2, Download, ExternalLink, Mail } from 'lucide-react'
 import { motion } from 'framer-motion'
+import developerIllustration from '../property/dev.png'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import ProjectCard from './components/ProjectCard.jsx'
@@ -61,7 +62,7 @@ function Hero() {
                 <p className="pt-2 text-muted"><span className="text-[#b49cff]">//</span> good ideas, made real</p>
               </div>
               <div className="relative -mr-8 h-full min-h-[260px] sm:-mr-12 sm:min-h-[320px]">
-                <img src="/property/dev.png" alt="Illustration of a developer working at a computer" className="absolute inset-0 h-full w-[145%] object-contain object-center opacity-90 [mix-blend-mode:screen]" />
+                <img src={developerIllustration} alt="Illustration of a developer working at a computer" className="absolute inset-0 h-full w-[145%] object-contain object-center opacity-90 [mix-blend-mode:screen]" />
               </div>
             </div>
             <div className="flex items-center justify-between border-t border-white/10 pt-3 font-mono text-[10px] text-muted">
