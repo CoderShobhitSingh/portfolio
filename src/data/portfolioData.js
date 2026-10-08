@@ -50,7 +50,7 @@ export const milestones = [
     title: 'B.Tech in Computer Science',
     organization: 'GLA University, Mathura',
     description: 'Studied computer science with a focus on building practical software projects.',
-    link: 'https://drive.google.com/file/d/12pQjV8XRym0erj9LjlPE_sBP9R0iILof/view?usp=sharing',
+    link: '',
   },
   {
     type: 'Certification',
