@@ -64,7 +64,7 @@ export const milestones = [
     title: 'SQL using MySQL',
     organization: 'HackerRank',
     description: 'Validates hands-on proficiency in complex SQL queries, multi-table joins, subqueries, aggregations, window functions, and relational database optimization.',
-    link: '',
+    link: 'https://drive.google.com/file/d/1pd67WcYpdaUOD53VEGIAkEHoExQO0E3q/view?usp=sharing',
   },
   {
     type: 'Certification',
