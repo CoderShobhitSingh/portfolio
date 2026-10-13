@@ -1,6 +1,6 @@
 import eVotingImage from '../../property/Voting-image.jpg'
 import weatherImage from '../../property/laptop.jpg'
-import docuMindImage from '../../property/distributed.png'
+import docuMindImage from '../../property/DocumindAI.png'
 import resume from '../../property/Shobhit_Singh_Resume_2026.pdf'
 
 export const profile = {
@@ -50,10 +50,10 @@ export const projects = [
   image: docuMindImage,
   imageFit: 'contain',
   description: 'An AI-powered document assistant that lets you upload files and ask questions about their contents.',
-  tags: ['React.js', 'Express.js', 'Node.js', 'Tailwind CSS', 'Gemini API', 'OpenAI API'],
+  tags: ['React.js', 'Express.js', 'Node.js', 'Tailwind CSS', 'Gemini API'],
   points: [
     'Upload PDF, DOCX, and TXT files, then ask questions about their contents',
-    'Supports Gemini and OpenAI, with a local search fallback',
+    'Supports Gemini , with a local search fallback',
     'Stores uploaded documents locally on the machine',
   ],
 }
