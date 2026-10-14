@@ -34,9 +34,9 @@ function Hero() {
             <a href="#contact" className="inline-flex min-h-11 items-center gap-2 rounded border border-white/15 px-4 font-mono text-xs text-white transition hover:border-mint/60 hover:text-mint active:scale-[0.98]">
               <Mail size={15} /> Contact me
             </a>
-            {profile.socials.slice(0, 2).map((social) => (
+            {profile.socials.slice(0, 3).map((social) => (
               <a key={social.label} href={social.href} target="_blank" rel="noreferrer" className="inline-flex min-h-11 items-center gap-1 rounded px-3 font-mono text-xs text-muted transition hover:text-mint">
-                {social.label} <ArrowUpRight size={13} />
+                {social.label === 'LeetCode' ? '200+ on LeetCode' : social.label} <ArrowUpRight size={13} />
               </a>
             ))}
           </motion.div>
