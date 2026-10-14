@@ -13,6 +13,7 @@ export const profile = {
   socials: [
     { label: 'GitHub', href: 'https://github.com/CoderShobhitSingh/' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/shobhit-singh-51940a267/' },
+    { label: 'LeetCode', href: 'https://leetcode.com/u/shobhit_cs22/' },
     { label: 'Instagram', href: 'https://www.instagram.com/snghshobhit' },
   ],
 }
