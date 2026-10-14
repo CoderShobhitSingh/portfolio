@@ -1,7 +1,7 @@
-import { ArrowUp, Github, Instagram, Linkedin, Mail } from 'lucide-react'
+import { ArrowUp, Code2, Github, Instagram, Linkedin, Mail } from 'lucide-react'
 import { profile } from '../data/portfolioData.js'
 
-const icons = { GitHub: Github, LinkedIn: Linkedin, Instagram }
+const icons = { GitHub: Github, LinkedIn: Linkedin, LeetCode: Code2, Instagram }
 
 export default function Footer() {
   return (
