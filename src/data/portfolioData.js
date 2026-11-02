@@ -1,6 +1,7 @@
 import eVotingImage from '../../property/Voting-image.jpg'
 import weatherImage from '../../property/laptop.jpg'
 import docuMindImage from '../../property/DocumindAI.png'
+import jobReadyResumeImage from '../../property/job-ready-resume.svg'
 import resume from '../../property/Shobhit_Singh_Resume_2026.pdf'
 
 export const profile = {
@@ -19,12 +20,26 @@ export const profile = {
 }
 
 export const skillGroups = [
-  { name: 'Frontend', skills: ['JavaScript', 'React', 'HTML', 'CSS', 'Tailwind CSS'] },
-  { name: 'Backend', skills: ['Node.js', 'Express.js', 'REST APIs', 'MongoDB', 'Java'] },
-  { name: 'Tools & DB', skills: ['Git', 'GitHub', 'Postman', 'MongoDB', 'OpenWeather API'] },
+  { name: 'Frontend', skills: ['JavaScript', 'React 19', 'Vite', 'HTML', 'CSS', 'Tailwind CSS', 'Sass', 'Axios'] },
+  { name: 'Backend', skills: ['Node.js', 'Express.js', 'REST APIs', 'MongoDB', 'Mongoose', 'JWT', 'bcryptjs'] },
+  { name: 'AI & Tools', skills: ['Gemini API', 'PDF parsing', 'Puppeteer', 'Multer', 'Zod', 'Git', 'GitHub', 'Postman'] },
 ]
 
 export const projects = [
+  {
+    name: 'Job-Ready Resume',
+    category: 'AI interview preparation',
+    repository: 'https://github.com/CoderShobhitSingh/CareerAgent',
+    image: jobReadyResumeImage,
+    imageFit: 'contain',
+    description: 'An AI-powered platform that helps job seekers assess their fit for a role and prepare with a tailored interview plan and resume.',
+    tags: ['React 19', 'Node.js', 'Express', 'MongoDB', 'Gemini AI', 'JWT', 'Puppeteer'],
+    points: [
+      'Analyzes resumes against job descriptions with skills, experience, and keyword match scores',
+      'Creates interview questions, skill-gap insights, and a multi-day preparation roadmap',
+      'Saves account-specific reports and generates downloadable, job-tailored resume PDFs',
+    ],
+  },
   {
     name: 'Weather App',
     category: 'API integration',
