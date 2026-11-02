@@ -20,7 +20,7 @@ export const profile = {
 }
 
 export const skillGroups = [
-  { name: 'Frontend', skills: ['JavaScript', 'React 19', 'Vite', 'HTML', 'CSS', 'Tailwind CSS', 'Sass', 'Axios'] },
+  { name: 'Frontend', skills: ['JavaScript', 'React.js', 'Vite', 'HTML', 'CSS', 'Tailwind CSS', 'Sass', 'Axios'] },
   { name: 'Backend', skills: ['Node.js', 'Express.js', 'REST APIs', 'MongoDB', 'Mongoose', 'JWT', 'bcryptjs'] },
   { name: 'AI & Tools', skills: ['Gemini API', 'PDF parsing', 'Puppeteer', 'Multer', 'Zod', 'Git', 'GitHub', 'Postman'] },
 ]
@@ -33,7 +33,7 @@ export const projects = [
     image: jobReadyResumeImage,
     imageFit: 'contain',
     description: 'An AI-powered platform that helps job seekers assess their fit for a role and prepare with a tailored interview plan and resume.',
-    tags: ['React 19', 'Node.js', 'Express', 'MongoDB', 'Gemini AI', 'JWT', 'Puppeteer'],
+    tags: ['React.js', 'Node.js', 'Express', 'MongoDB', 'Gemini AI', 'JWT', 'Puppeteer'],
     points: [
       'Analyzes resumes against job descriptions with skills, experience, and keyword match scores',
       'Creates interview questions, skill-gap insights, and a multi-day preparation roadmap',
@@ -56,7 +56,7 @@ export const projects = [
     image: eVotingImage,
     imageFit: 'contain',
     description: 'A full-stack electronic voting system project.',
-    tags: ['React.js', 'Express.js', 'Node,js','MongoDb','Tailwind.css'],
+    tags: ['React.js', 'Express.js', 'Node.js', 'MongoDB', 'Tailwind CSS'],
     points: ['Includes a user-facing voting experience and server-side functionality', 'Built as an end-to-end web application'],
   },
   {
