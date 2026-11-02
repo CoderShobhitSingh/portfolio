@@ -83,8 +83,8 @@ function About() {
         <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
           <Reveal>
             <p className="font-mono text-xs text-mint">// the short version</p>
-            <p className="mt-4 text-lg leading-8 text-white/85">I&apos;m a {profile.role.toLowerCase()} with a strong focus on front-end development. I enjoy turning ideas into scalable, responsive, and user-friendly applications.</p>
-            <p className="mt-4 text-sm leading-7 text-muted">I value clear communication, collaborative problem-solving, and the small details that make digital products feel considered.</p>
+            <p className="mt-4 text-lg leading-8 text-white/85">I&apos;m a {profile.role.toLowerCase()} with a strong focus on front-end development and full-stack product building. I enjoy turning ideas into scalable, responsive, and user-friendly applications that solve real problems.</p>
+            <p className="mt-4 text-sm leading-7 text-muted">My recent work includes AI-powered web apps, role-based dashboards, and end-to-end features using React, Node.js, MongoDB, and modern APIs. I value clear communication, collaborative problem-solving, and the details that make digital products feel thoughtful and polished.</p>
           </Reveal>
           <div className="space-y-7">
             {skillGroups.map((group, index) => (
